@@ -35,7 +35,7 @@ int main(int argc, char const *argv[])
     //Tamaño de tipos no nativos
     Empleado empleados[10]; //<--- 2730B
     cout << "Tamaño Empleado: " << sizeof(Empleado) << endl;
-    cout << "Empleados" << empleados[0].LeerEdad() << endl;
+    cout << "Empleados: " << empleados[0].LeerEdad() << endl;
     
     int a = 64;
     char b = (char) a;
