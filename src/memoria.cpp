@@ -41,5 +41,11 @@ int main(int argc, char const *argv[])
     char b = (char) a;
     cout << b << endl;
 
+    //Puntero en c y c++
+    int* dirA = (int*)malloc(sizeof(int)); //C
+    int* dirB = new int;                   //C++
+
+    cout << *dirA << endl;
+
     return 0;
 }
